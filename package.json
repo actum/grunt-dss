@@ -25,14 +25,15 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "dss": "1.0.3",
+    "dss": "git://github.com/actum/DSS",
     "handlebars": "1.0.12"
   },
   "devDependencies": {
     "grunt": "~0.4.0",
     "grunt-contrib-jshint": "~0.3.0",
     "grunt-contrib-nodeunit": "~0.1.2",
-    "grunt-contrib-clean": "~0.4.0"
+    "grunt-contrib-clean": "~0.4.0",
+    "dss": "git://github.com/actum/DSS"
   },
   "peerDependencies": {
     "grunt": "~0.4.0"
